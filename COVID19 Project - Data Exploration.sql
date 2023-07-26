@@ -69,7 +69,7 @@ order by total_deaths_count desc;
 
 select location, max(total_deaths) as total_death_count
 from `portfolioproject-393816.CovidDeaths.Deaths`
-where continent is null and location not like("%income%") and location not like("%Union%") and location not like ("World")
+where continent is null and location not like("%income%") and location not in("European Union","World")
 group by location
 order by total_death_count desc;
 
