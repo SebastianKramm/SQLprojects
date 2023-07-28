@@ -1,5 +1,9 @@
-/* Cleaning data project
+/* 
+Cleaning data project
+
 Nashville housing dataset
+
+Skills used: Joins and Self Joins, Windows, CTE's,CASE statement
 */
 
 use nashv_housing;
